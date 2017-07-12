@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		117510551F1678FF0094C22B /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 117510541F1678E10094C22B /* GoogLeNetPlaces.mlmodel */; };
 		4FD0D1F01EE89E8100F1BE08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD0D1EF1EE89E8100F1BE08 /* AppDelegate.swift */; };
 		4FD0D1F21EE89E8100F1BE08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD0D1F11EE89E8100F1BE08 /* ViewController.swift */; };
 		4FD0D1F51EE89E8100F1BE08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD0D1F31EE89E8100F1BE08 /* Main.storyboard */; };
 		4FD0D1F71EE89E8100F1BE08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD0D1F61EE89E8100F1BE08 /* Assets.xcassets */; };
 		4FD0D1FA1EE89E8100F1BE08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD0D1F81EE89E8100F1BE08 /* LaunchScreen.storyboard */; };
-		4FD0D2021EE89F4E00F1BE08 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4FD0D2011EE89F4900F1BE08 /* GoogLeNetPlaces.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		117510541F1678E10094C22B /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 		4FD0D1EC1EE89E8100F1BE08 /* FlowerUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD0D1EF1EE89E8100F1BE08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FD0D1F11EE89E8100F1BE08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +24,6 @@
 		4FD0D1F61EE89E8100F1BE08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FD0D1F91EE89E8100F1BE08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FD0D1FB1EE89E8100F1BE08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FD0D2011EE89F4900F1BE08 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = GoogLeNetPlaces.mlmodel; path = ../../../../../Applications/GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +40,7 @@
 		4FD0D1E31EE89E8100F1BE08 = {
 			isa = PBXGroup;
 			children = (
+				117510541F1678E10094C22B /* GoogLeNetPlaces.mlmodel */,
 				4FD0D1EE1EE89E8100F1BE08 /* FlowerUp */,
 				4FD0D1ED1EE89E8100F1BE08 /* Products */,
 			);
@@ -56,7 +57,6 @@
 		4FD0D1EE1EE89E8100F1BE08 /* FlowerUp */ = {
 			isa = PBXGroup;
 			children = (
-				4FD0D2011EE89F4900F1BE08 /* GoogLeNetPlaces.mlmodel */,
 				4FD0D1EF1EE89E8100F1BE08 /* AppDelegate.swift */,
 				4FD0D1F11EE89E8100F1BE08 /* ViewController.swift */,
 				4FD0D1F31EE89E8100F1BE08 /* Main.storyboard */,
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				117510551F1678FF0094C22B /* GoogLeNetPlaces.mlmodel in Sources */,
 				4FD0D1F21EE89E8100F1BE08 /* ViewController.swift in Sources */,
 				4FD0D1F01EE89E8100F1BE08 /* AppDelegate.swift in Sources */,
-				4FD0D2021EE89F4E00F1BE08 /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,10 +273,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 85UX9F7ZWN;
+				DEVELOPMENT_TEAM = 8M8KKU9WRP;
 				INFOPLIST_FILE = FlowerUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.suraj.flower.FlowerUp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xchanging.FlowerUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,10 +287,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 85UX9F7ZWN;
+				DEVELOPMENT_TEAM = 8M8KKU9WRP;
 				INFOPLIST_FILE = FlowerUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.suraj.flower.FlowerUp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xchanging.FlowerUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -316,6 +316,7 @@
 				4FD0D2001EE89E8100F1BE08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
